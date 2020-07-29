@@ -29,7 +29,7 @@ enum BeamsGlass {
 const stopBlock = BEDROCK
 const stopPosition = world(35,1,0)
 const locatePaintingTarget = 14
-const locateGoonTarget = 173
+const locateGoonTarget = 113
 
 const directions = [
     FORWARD,
