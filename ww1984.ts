@@ -117,7 +117,7 @@ namespace ww {
     /**
      * Inspect in the d direction for Goon
      */
-    //% block="Locate Goon %d"
+    //% block="Locate goon %d"
     export function locateGoon(d: Direction): boolean {
         if(shouldStop()) return false;
 
@@ -131,7 +131,7 @@ namespace ww {
     /**
      * Inspect in the d direction for GOLD_BLOCK
      */
-    //% block="Apprehend Goon %d"
+    //% block="Apprehend goon %d"
     export function apprehendGoon(d: Direction): void {
         if(shouldStop()) return;
 
