@@ -91,7 +91,7 @@ namespace ww {
     /**
      * Inspect in the d direction for the painting
      */
-    //% block="Search crate %d"
+    //% block="Locate painting %d"
     export function locatePainting(d: Direction): boolean {
         if(shouldStop()) return false;
 
@@ -105,7 +105,7 @@ namespace ww {
     /**
      * Break the block in the d direction
      */
-    //% block="Break crate %d"
+    //% block="Retrieve painting %d"
     export function retrievePainting(d: Direction): void {
         if(shouldStop()) return;
 
@@ -117,7 +117,7 @@ namespace ww {
     /**
      * Inspect in the d direction for Goon
      */
-    //% block="Investigate attendee %d"
+    //% block="Locate goon %d"
     export function locateGoon(d: Direction): boolean {
         if(shouldStop()) return false;
 
@@ -131,7 +131,7 @@ namespace ww {
     /**
      * Inspect in the d direction for GOLD_BLOCK
      */
-    //% block="Lasso goon %d"
+    //% block="Apprehend goon %d"
     export function apprehendGoon(d: Direction): void {
         if(shouldStop()) return;
 
