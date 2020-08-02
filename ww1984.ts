@@ -140,6 +140,18 @@ namespace ww {
         agent.destroy(direction);
     }
 
+    /**
+     * Inspect in the d direction for GOLD_BLOCK
+     */
+    //% block="Takedown goon %d"
+    export function takedownGoon(d: Direction): void {
+        if(shouldStop()) return;
+
+        const direction = directions[d];
+
+        agent.destroy(direction);
+    }    
+
     // helper functions
     function shouldStop(): boolean {
         return blocks.testForBlock(stopBlock, stopPosition);
