@@ -91,7 +91,7 @@ namespace ww {
     /**
      * Inspect in the d direction for the painting
      */
-    //% block="Search crate %d"
+    //% block="painting inside crate %d"
     export function locatePainting(d: Direction): boolean {
         if(shouldStop()) return false;
 
@@ -117,7 +117,7 @@ namespace ww {
     /**
      * Inspect in the d direction for Goon
      */
-    //% block="Investigate attendee %d"
+    //% block="attendee is the goon %d"
     export function locateGoon(d: Direction): boolean {
         if(shouldStop()) return false;
 
