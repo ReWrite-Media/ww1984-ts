@@ -1,6 +1,6 @@
 // enums
 enum Direction {
-    //% block="foward"
+    //% block="forward"
     Forward,
     //% block="back"
     Back,
